@@ -20,7 +20,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 menu,
 nav,
@@ -2421,33 +2420,33 @@ input[type="month"].input-lg {
   line-height: 46px;
   line-height: 1.33 \0;
 }
-_:-ms-fullscreen,
+:-ms-fullscreen,
 :root input[type="date"],
-_:-ms-fullscreen,
+:-ms-fullscreen,
 :root input[type="time"],
-_:-ms-fullscreen,
+:-ms-fullscreen,
 :root input[type="datetime-local"],
-_:-ms-fullscreen,
+:-ms-fullscreen,
 :root input[type="month"] {
   line-height: 1.42857143;
 }
-_:-ms-fullscreen.input-sm,
+:-ms-fullscreen.input-sm,
 :root input[type="date"].input-sm,
-_:-ms-fullscreen.input-sm,
+:-ms-fullscreen.input-sm,
 :root input[type="time"].input-sm,
-_:-ms-fullscreen.input-sm,
+:-ms-fullscreen.input-sm,
 :root input[type="datetime-local"].input-sm,
-_:-ms-fullscreen.input-sm,
+:-ms-fullscreen.input-sm,
 :root input[type="month"].input-sm {
   line-height: 1.5;
 }
-_:-ms-fullscreen.input-lg,
+:-ms-fullscreen.input-lg,
 :root input[type="date"].input-lg,
-_:-ms-fullscreen.input-lg,
+:-ms-fullscreen.input-lg,
 :root input[type="time"].input-lg,
-_:-ms-fullscreen.input-lg,
+:-ms-fullscreen.input-lg,
 :root input[type="datetime-local"].input-lg,
-_:-ms-fullscreen.input-lg,
+:-ms-fullscreen.input-lg,
 :root input[type="month"].input-lg {
   line-height: 1.33;
 }
@@ -5858,7 +5857,7 @@ button.close {
 .carousel-inner > .item > a > img {
   line-height: 1;
 }
-@media all and (transform-3d), (-webkit-transform-3d) {
+@media all and (-webkit-transform-3d) {
   .carousel-inner > .item {
     -webkit-transition: -webkit-transform .6s ease-in-out;
          -o-transition:      -o-transform .6s ease-in-out;
@@ -5866,8 +5865,8 @@ button.close {
 
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    -webkit-perspective: 1000;
-            perspective: 1000;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
   }
   .carousel-inner > .item.next,
   .carousel-inner > .item.active.right {
