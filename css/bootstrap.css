@@ -942,6 +942,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.img-rotate{
+  display: block;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
 .img-rounded {
   border-radius: 6px;
 }
